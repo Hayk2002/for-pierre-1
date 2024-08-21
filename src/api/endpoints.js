@@ -1,0 +1,23 @@
+export const SITE_URL = process.env.REACT_APP_BASE_URL;
+export const BASE_URL = `${SITE_URL}/api`;
+
+export const ACCOUNT = "/Account";
+export const COMPANIES = "/Companies";
+export const BRANCHES = "/Branches";
+export const TIMEZONES = "/Common/timezones";
+export const USER_PROFILE = "/UserProfiles";
+export const INVITATIONS = "/Invitations";
+export const APPOINTMENT = "/Appointment";
+export const TIME_SLOTS = "/TimeSlots";
+export const COMPANY_ACCOUNTS = "/CompanyAccounts";
+export const SPECIALIZATIONS = "/Specializations";
+export const SERVICES = "/Services";
+export const RESOURCES = "/Resources";
+export const ACCOUNT_SPECIALIZATION = "/AccountSpecializations";
+export const TIME_BLOCKS = "/BlockTypes";
+export const CustomDayScheduleBlockTime = "/CustomDayScheduleBlockTime";
+export const ScheduleTemplates = "/ScheduleTemplates";
+export const BLOCK_TYPES = "/BlockTypes";
+export const REPORT = "/REPORT";
+export const ACCOUNT_SCHEDULE = "/AccountSchedules";
+export const CUSTOMDAYSCHEDULE = "/CustomDaySchedule";
